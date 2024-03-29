@@ -13,7 +13,7 @@ scroll-behavior: smooth;
 #main{
     height: 100%;
     width: 100%;
-    background-color: #ffffff;
+    background-color: rgba(245, 239, 239 ,0.5);
     display: grid;
  grid-template-rows: 15% 75% 10%;
 }
@@ -37,7 +37,7 @@ scroll-behavior: smooth;
     font-weight: 500;
 }
 #content{
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,5 +47,18 @@ scroll-behavior: smooth;
     text-align: center;
 }
 #copyright{
-    background-color: hotpink;
+    /* background-color: hotpink; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gap{
+    margin: 12px;
+}
+#button1 a{
+    margin: 5px;
+}
+#button2 a{
+    margin: 15px;
 }
